@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
         return {
-            base: '/Tokens_Didacticos_Nivel_INICIAL/',
+            base: '/tokens3/',
             build: {
                 outDir: 'docs'
             },
